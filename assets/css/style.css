@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.flex-grow {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.shado {
+    background: linear-gradient(180deg, #000000 36.19%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.footer {
+    background: linear-gradient(0deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+    height: 70px;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.gap {
+    gap: 46px;
+}
+
+.gap-2 {
+    gap: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.bg {
+    background-image: url(/assets/image/jungle-background-forest-nature-scene-futuristic-generative-ai\ 1.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.monkey {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.liner {
+    background: linear-gradient(180deg, #030D01 0%, rgba(3, 13, 1, 0) 100%);
+
+}
+
+.circle:hover {
+    transform: scale(1.2);
+
+}
+
+.buy {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    max-width: 144px;
+    width: 100%;
+    height: 51px;
+    padding: 10px;
+    border-radius: 100px;
+    background: #FFC20A;
+    margin-left: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover.buy {
+    color: orangered;
+}
+
+
+
+.box-1 {
+
+    margin-top: 97px;
+}
+
+span {
+    color: #3B945E;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.text-2 {
+    font-family: "Exo 2", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+    color: white;
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+
+.text-3 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+
+.align-item-center {
+    align-items: center;
+}
+
+
+
+@media (max-width:992px) {
+    .lg-view {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        background-color: black;
+        position: fixed;
+        top: 0%;
+        right: -100%;
+        z-index: 4;
+        transition: all 0.3s;
+    }
+
+    .ml407 {
+        margin-right: 0;
+    }
+
+    label[for="menubar"] {
+        width: 30px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+    }
+
+    label[for="menubar"] span {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        z-index: 5;
+    }
+
+    input[type="checkbox"]:checked~.lg-view {
+        right: 0;
+    }
+
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .buy {
+        margin: 0;
+
+    }
+}
+
+
+@media (max-width:768px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .text-1 {
+        text-align: center;
+    }
+
+    .text-2 {
+        text-align: center;
+    }
+
+    .text-3 {
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width:576px) {
+    .col-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    .text-1 {
+        text-align: center;
+
+    }
+
+    .text-2 {
+        text-align: center;
+        font-size: 37px;
+        font-family: "Exo 2", sans-serif;
+        font-size: 44px;
+        font-weight: 400;
+        line-height: 76.8px;
+        text-align: left;
+        color: white;
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .text {
+        font-size: 57px;
+    }
+
+    .text-3 {
+        text-align: center;
+    }
+}
